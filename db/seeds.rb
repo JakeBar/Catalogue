@@ -19,9 +19,9 @@ products = Product.create([
  
 # The manufacturer is in a rush and has determined that all products should expire 5 days after the date they must be sold.
  
-products.each do | product |
+#products.each do | product |
    
-  product.best_before = product.sell_by + 5.days
-  product.save!
+ # product.best_before = product.sell_by + 5.days
+ # products.save!
  
-end
+#end
