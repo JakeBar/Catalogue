@@ -4,12 +4,18 @@
   <tr>
     <th>Name</th>
     <th>Volume</th>
+    <th>Quantity</th>
+    <th>Price</th>
+    <th>Sell By</th>
   </tr>
  
   <% @products.each do |product| %>
     <tr>
       <td><%= product.name %></td>
       <td><%= product.volume %></td>
+      <td><%= product.quantity %></td>
+      <td><%= product.price %></td>
+      <td><%= product.sell_by %></td>
     </tr>
   <% end %>
 </table>
